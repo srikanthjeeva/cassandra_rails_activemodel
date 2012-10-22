@@ -1,0 +1,49 @@
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-10-22 16:37:41 +0530
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/srikanth/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/srikanth/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/srikanth/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/srikanth/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (32.1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-10-22 16:38:46 +0530
+Served asset /rails.png - 200 OK (4ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-10-22 16:52:23 +0530
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-10-22 16:52:35 +0530
+Served asset /rails.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (82.6ms)[0m  [1mINSERT INTO Widgets (KEY,name,price,created_at,updated_at,description) VALUES ('9471aae4-1c47-11e2-956f-54c81679e4af','Acme','100','2012-10-22T12:54:13.326391Z','2012-10-22T12:54:13.326476Z','Acme is the best product ever')[0m
+  [1m[35m (1.6ms)[0m  INSERT INTO Widgets (KEY,name,price,created_at,updated_at,description) VALUES ('b6d15062-1c47-11e2-99cd-db98c7803315','Acme','100','2012-10-22T12:55:10.995975Z','2012-10-22T12:55:10.996044Z','Acme is the best product ever')
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO Widgets (KEY,name,price,created_at,updated_at,description) VALUES ('b9aeb9f0-1c47-11e2-8360-d476fe423d52','Acme','100','2012-10-22T12:55:15.802293Z','2012-10-22T12:55:15.802373Z','Acme is the best product ever')[0m
+  [1m[35m (2.0ms)[0m  INSERT INTO Widgets (KEY,name,price,created_at,updated_at,description) VALUES ('c15c95a0-1c47-11e2-9cbe-91afa1ecdd7c','Acme','100','2012-10-22T12:55:28.685932Z','2012-10-22T12:55:28.686008Z','Acme is the best product ever')
+  [1m[36m (1.9ms)[0m  [1mINSERT INTO Widgets (KEY,name,price,created_at,updated_at,description) VALUES ('c5c84d8c-1c47-11e2-99d7-d152737c71eb','Acme','100','2012-10-22T12:55:36.102575Z','2012-10-22T12:55:36.102654Z','Acme is the best product ever')[0m
+Connecting to database specified by database.yml
+  [1m[36m (11.4ms)[0m  [1mINSERT INTO Widgets (KEY,name,price,created_at,updated_at,description) VALUES ('609c23ec-1c48-11e2-911e-61875d38da85','Acme','100','2012-10-22T12:59:55.859962Z','2012-10-22T12:59:55.860044Z','Acme is the best product ever')[0m
