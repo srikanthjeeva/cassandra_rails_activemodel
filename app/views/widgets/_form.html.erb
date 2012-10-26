@@ -4,13 +4,15 @@
       <h2><%= pluralize(@widget.errors.count, "error") %> prohibited this widget from being saved:</h2>
 
       <ul>
-      <% @widget.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
+        <% @widget.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
       </ul>
+
     </div>
   <% end %>
 
+   Name : <%= f.text_field :name %>
   <div class="actions">
     <%= f.submit %>
   </div>

@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Cass</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <title>Cassandra</title>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= stylesheet_link_tag    "bootstrap" %>
+    <%= stylesheet_link_tag    "bootstrap-responsive" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Cassandra Rails</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <%= yield %>
+      <hr>
+      <footer>
+        <p>&copy; GTO AWCOE 2012</p>
+      </footer>
+    </div> <!-- /container -->
+  </body>
 </html>

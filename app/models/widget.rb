@@ -1,8 +1,8 @@
 class Widget < CassandraObject::Base
   string :name
   string :description
-  integer :price
-  array :colors, unique: true
+  string :created_at
+  string :updated_at
 
   validates :name, presence: :true
 
